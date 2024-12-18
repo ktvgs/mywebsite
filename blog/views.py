@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from .models import Post
 from django.utils import timezone
+from .models import UploadedImage
+from .forms import UploadImageForm
 
 # Create your views here.
 def post_list(request):
